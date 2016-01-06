@@ -102,7 +102,7 @@
                           <goal>build</goal>
                         </goals>
                       </execution>
-                      <execution>
+                      <!--execution>
                         <id>tag-image</id>
                         <phase>package</phase>
                         <goals>
@@ -112,7 +112,7 @@
                           <image>${project.parent.artifactId}</image>
                           <newName>${docker.registry}/${project.parent.artifactId}:${project.version}</newName>
                         </configuration>
-                      </execution>
+                      </execution-->
                     </executions>
                   </plugin>
                 </plugins>
