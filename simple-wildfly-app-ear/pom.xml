@@ -101,10 +101,6 @@
                         <goals>
                           <goal>build</goal>
                         </goals>
-                        <configuration>
-                          <image>${project.parent.artifactId}</image>
-                          <newName>${docker.registry}/${project.parent.artifactId}:${project.version}</newName>
-                        </configuration>
                       </execution>
                       <execution>
                         <id>tag-image</id>
