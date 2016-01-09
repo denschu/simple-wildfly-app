@@ -84,7 +84,7 @@
                     <groupId>com.spotify</groupId>
                     <artifactId>docker-maven-plugin</artifactId>
                     <configuration>
-                      <imageName>${docker.registry}/${project.parent.artifactId}</imageName>
+                      <imageName>${docker.registry.hostname}/${project.parent.artifactId}</imageName>
                       <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
                       <resources>
                          <resource>
